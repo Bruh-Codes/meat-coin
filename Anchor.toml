@@ -6,14 +6,14 @@ upgradeable = true
 resolution = true
 skip-lint = false
 
-[programs.localnet]
+[programs.mainnet]
 meat_coin = "92vGubKf8dDMF99AnQ4eLbaByujKBSyCAQ6WwDgt7P6k"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "localnet"
+cluster = "mainnet"
 wallet = "~/.config/solana/id.json"
 
 [scripts]
